@@ -292,7 +292,7 @@ a:hover {
 }
 
 .contact address a {
-  display: inline-block;
+  display: block;
 }
 
 .contact address p,
