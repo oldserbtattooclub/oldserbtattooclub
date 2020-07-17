@@ -28,9 +28,6 @@
 /* LAYOUT & STYLES */
 html {
   font-family: 'Cardo', serif;
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   color: var(--Gainsboro);
   font-variant-ligatures: common-ligatures;
@@ -50,7 +47,6 @@ section {
   background-color: var(--CodGray);
   padding: 1rem;
   height: 100vh;
-  scroll-snap-align: start;
   position: relative;
 }
 
@@ -92,6 +88,7 @@ a:hover {
 #hero {
   background: url(../img/intro.jpg) no-repeat center center;
   background-size: cover;
+  height: 100vh;
 }
 
 .hero-content-wrapper {
